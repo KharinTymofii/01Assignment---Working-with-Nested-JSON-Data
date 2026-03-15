@@ -1,0 +1,5 @@
+services:
+  scheduler:
+    volumes:
+      - ./data:/usr/local/airflow/data
+      - ./include/telephony_json:/usr/local/airflow/include/telephony_json
