@@ -1,0 +1,16 @@
+order_id,customer_id,order_date,order_status,shipping_city,shipping_country
+1001,1,2024-04-03,delivered,Kyiv,Ukraine
+1002,2,2024-04-08,delivered,Lviv,Ukraine
+1003,3,2024-04-12,shipped,Odesa,Ukraine
+1004,1,2024-04-19,delivered,Kyiv,Ukraine
+1005,4,2024-04-24,cancelled,Kharkiv,Ukraine
+1006,5,2024-05-02,delivered,Dnipro,Ukraine
+1007,6,2024-05-05,delivered,Warsaw,Poland
+1008,7,2024-05-09,returned,Krakow,Poland
+1009,2,2024-05-13,delivered,Lviv,Ukraine
+1010,3,2024-05-20,processing,Odesa,Ukraine
+1011,5,2024-05-28,delivered,Dnipro,Ukraine
+1012,6,2024-06-02,delivered,Warsaw,Poland
+1013,7,2024-06-11,shipped,Krakow,Poland
+1014,8,2024-06-15,pending,Prague,Czechia
+1015,1,2024-06-21,delivered,Kyiv,Ukraine

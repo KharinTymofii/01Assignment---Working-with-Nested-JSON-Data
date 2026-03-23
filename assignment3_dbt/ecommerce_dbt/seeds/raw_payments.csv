@@ -1,0 +1,17 @@
+payment_id,order_id,payment_date,payment_method,payment_status,amount
+5001,1001,2024-04-03,card,paid,728.00
+5002,1002,2024-04-08,bank_transfer,paid,324.00
+5003,1003,2024-04-12,card,paid,199.00
+5004,1004,2024-04-19,card,paid,319.00
+5005,1005,2024-04-24,bank_transfer,failed,420.00
+5006,1006,2024-05-02,card,paid,215.00
+5007,1007,2024-05-05,card,paid,588.00
+5008,1008,2024-05-09,digital_wallet,paid,257.00
+5009,1008,2024-05-10,digital_wallet,refunded,257.00
+5010,1009,2024-05-13,bank_transfer,paid,485.00
+5011,1010,2024-05-20,card,pending,298.00
+5012,1011,2024-05-28,card,paid,948.00
+5013,1012,2024-06-02,bank_transfer,paid,250.00
+5014,1013,2024-06-11,digital_wallet,paid,243.00
+5015,1014,2024-06-15,card,pending,499.00
+5016,1015,2024-06-21,card,paid,267.00

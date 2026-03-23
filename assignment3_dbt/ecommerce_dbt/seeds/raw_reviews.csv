@@ -1,0 +1,13 @@
+review_id,customer_id,product_id,review_date,rating,review_text
+9001,1,101,2024-04-10,5,Excellent phone and fast delivery
+9002,2,103,2024-04-15,4,Chair is comfortable for remote work
+9003,3,109,2024-04-18,5,Very good sound quality
+9004,1,105,2024-04-27,4,Good mat but packaging was average
+9005,5,106,2024-05-11,5,Weights are solid and easy to adjust
+9006,6,102,2024-05-15,4,Tablet works well for travel
+9007,7,109,2024-05-19,2,Returned due to fit and comfort
+9008,2,104,2024-05-25,5,Desk quality exceeded expectations
+9009,5,101,2024-06-05,5,Second purchase and still great
+9010,6,105,2024-06-10,4,Useful for daily stretching
+9011,7,110,2024-06-18,3,Speaker is decent but battery is average
+9012,1,109,2024-06-30,5,Headphones are worth the price

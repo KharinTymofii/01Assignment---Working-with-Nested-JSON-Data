@@ -1,0 +1,13 @@
+shipment_id,order_id,shipment_date,delivery_date,shipment_status,carrier
+7001,1001,2024-04-04,2024-04-06,delivered,Nova Post
+7002,1002,2024-04-09,2024-04-12,delivered,Ukrposhta
+7003,1003,2024-04-13,,in_transit,Nova Post
+7004,1004,2024-04-20,2024-04-26,delivered,Ukrposhta
+7005,1006,2024-05-03,2024-05-06,delivered,Nova Post
+7006,1007,2024-05-06,2024-05-09,delivered,DHL
+7007,1008,2024-05-10,2024-05-14,returned,DHL
+7008,1009,2024-05-14,2024-05-20,delivered,Ukrposhta
+7009,1011,2024-05-29,2024-06-01,delivered,Nova Post
+7010,1012,2024-06-03,2024-06-08,delivered,DHL
+7011,1013,2024-06-12,,in_transit,DHL
+7012,1015,2024-06-22,2024-06-28,delivered,Nova Post

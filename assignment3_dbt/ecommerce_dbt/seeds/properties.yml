@@ -1,0 +1,15 @@
+version: 2
+
+seeds:
+  - name: raw_customers
+    config:
+      column_types:
+        customer_id: integer
+        first_name: varchar
+        last_name: varchar
+        email: varchar
+        phone: varchar
+        city: varchar
+        country: varchar
+        signup_date: date
+        customer_status: varchar

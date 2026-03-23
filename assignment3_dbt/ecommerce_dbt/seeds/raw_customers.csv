@@ -1,0 +1,9 @@
+customer_id,first_name,last_name,email,phone,city,country,signup_date,customer_status
+1,Olivia,Martin,olivia.martin@example.com,+380501110001,Kyiv,Ukraine,2024-01-10,active
+2,Liam,Carter,liam.carter@example.com,+380501110002,Lviv,Ukraine,2024-01-18,active
+3,Emma,Wilson,emma.wilson@example.com,+380501110003,Odesa,Ukraine,2024-02-03,active
+4,Noah,Johnson,noah.johnson@example.com,+380501110004,Kharkiv,Ukraine,2024-02-15,inactive
+5,Ava,Brown,ava.brown@example.com,+380501110005,Dnipro,Ukraine,2024-03-01,active
+6,Lucas,Taylor,lucas.taylor@example.com,+380501110006,Warsaw,Poland,2024-03-19,active
+7,Mia,Anderson,mia.anderson@example.com,+380501110007,Krakow,Poland,2024-04-02,active
+8,Ethan,Thomas,ethan.thomas@example.com,+380501110008,Prague,Czechia,2024-04-21,blocked

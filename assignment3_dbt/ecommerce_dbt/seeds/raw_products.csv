@@ -1,0 +1,13 @@
+product_id,category_id,product_name,brand,price,is_active,created_at
+101,1,Smartphone X1,NovaTech,699.00,true,2024-01-05
+102,1,Tablet Air,NovaTech,499.00,true,2024-01-12
+103,2,Ergo Chair,WorkStyle,259.00,true,2024-01-20
+104,2,Standing Desk,WorkStyle,420.00,true,2024-02-01
+105,3,Yoga Mat Flex,MoveWell,35.00,true,2024-02-10
+106,3,Adjustable Dumbbells,MoveWell,180.00,true,2024-02-16
+107,4,Laptop Sleeve Pro,CarryOn,29.00,true,2024-02-25
+108,4,USB-C Hub 7in1,CarryOn,65.00,true,2024-03-04
+109,5,Noise Cancelling Headphones,SoundPeak,199.00,true,2024-03-18
+110,5,Portable Speaker Mini,SoundPeak,89.00,true,2024-03-26
+111,1,Smartwatch S,NovaTech,249.00,true,2024-04-03
+112,4,Wireless Charger Pad,CarryOn,39.00,false,2024-04-11

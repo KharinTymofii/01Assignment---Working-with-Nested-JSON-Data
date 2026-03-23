@@ -1,0 +1,125 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: Customer dimension with standardized attributes and business label.
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_categories
+    columns:
+      - name: category_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+      - name: category_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_categories')
+                field: category_id
+
+  - name: dim_dates
+    columns:
+      - name: date_day
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_orders
+    description: Order-level fact table with payment and shipment metrics.
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_id
+
+  - name: fct_order_items
+    columns:
+      - name: order_item_id
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('fct_orders')
+                field: order_id
+
+  - name: fct_payments
+    columns:
+      - name: payment_id
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('fct_orders')
+                field: order_id
+
+  - name: fct_shipments
+    columns:
+      - name: shipment_id
+        tests:
+          - unique
+          - not_null
+      - name: shipment_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['delivered', 'in_transit', 'returned']
+
+  - name: fct_reviews
+    columns:
+      - name: review_id
+        tests:
+          - unique
+          - not_null
+
+  - name: agg_customer_lifetime_metrics
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: agg_monthly_category_sales
+    columns:
+      - name: year_month
+        tests:
+          - not_null
+      - name: category_id
+        tests:
+          - not_null
+
+  - name: agg_delivery_performance
+    columns:
+      - name: carrier
+        tests:
+          - not_null
+
+  - name: agg_product_review_scores
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null

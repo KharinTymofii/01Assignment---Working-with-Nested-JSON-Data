@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: src_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: src_categories
+    columns:
+      - name: category_id
+        tests:
+          - unique
+          - not_null
+
+  - name: src_products
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+      - name: category_id
+        tests:
+          - not_null
+
+  - name: src_orders
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: src_order_items
+    columns:
+      - name: order_item_id
+        tests:
+          - unique
+          - not_null
+
+  - name: src_payments
+    columns:
+      - name: payment_id
+        tests:
+          - unique
+          - not_null
+
+  - name: src_shipments
+    columns:
+      - name: shipment_id
+        tests:
+          - unique
+          - not_null
+
+  - name: src_reviews
+    columns:
+      - name: review_id
+        tests:
+          - unique
+          - not_null
